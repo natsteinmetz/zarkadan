@@ -1,0 +1,38 @@
+/********************************************
+Landing page styles
+********************************************/
+
+#intro {
+	padding: 5em 0;
+
+	h1 {
+		padding-bottom: .7em;
+	}
+
+	p {
+		padding: 2em;
+
+		@include breakpoint( tablet ) {
+			padding: 2em 8em;
+		}
+	}
+}
+
+
+.get-started {
+	padding: .5em;
+
+	&:hover {
+		background: lighten($gray, 5%);
+	}
+}
+
+#more-information {
+	padding: 3em 0 5em 0;
+	text-align: center;
+}
+
+.round {
+	padding: .3em;
+	border-radius: 50%;
+}

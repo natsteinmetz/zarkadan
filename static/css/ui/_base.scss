@@ -1,0 +1,47 @@
+/*****************
+Base Layout and Text
+*********************/
+
+html, body {
+	height: 100%;
+}
+
+.wrap {
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+#container {
+	display: table;
+	height: 100%;
+	width: 100%;
+	padding-top: 2em;
+}
+
+.inner-container {
+	margin: 0 10%;
+}
+
+.first {
+	padding-left: 0;
+}
+
+.box {
+	border-radius: 4px;
+	padding: 2em;
+	margin-bottom: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: $green;
+}
+
+.inline {
+	list-style-type: none;
+	margin-left: 0;
+
+	li {
+		display: inline;
+	}
+}
